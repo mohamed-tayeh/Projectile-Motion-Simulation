@@ -1,0 +1,79 @@
+﻿
+Purpose:
+This is a projectile motion simulation, which
+is aimed to be used as an educational tool and
+a method to facilitate data collection.
+
+Overview:
+The product contains three
+simulation functions:
+
+Single Projectile Simulation:
+Launches one projectile into the air.
+
+Angle Loop Simulation:
+Launches multiple projectiles with the same
+attributes and drag coefficient, but at 
+differing angles of launch.
+
+Drag Loop Simulation:
+Launches multiple projectiles at the same
+launch angle, but with different drag
+coefficients. The projectiles have vector
+arrows representing the x and y
+instantaneous velocities.
+
+Logic governing the number of projectiles:
+E.g. for the angle loop function
+The user enters an initial launch angle,
+an angle increment and a maximum launch angle.
+A projectile is fired at the initial launch
+angle. This angle is incremented by the entered
+angle increment and another projectile is fired
+at that angle. This cycle loops until the
+maximum angle of launch is reached and the
+program finishes. The Drag Loop Function
+follows a similar process except with values
+for the drag coefficients.
+
+Reference Points(part of the Single Projectile
+Simulation):
+Reference points are a method to show the user
+key information about the projectile's motion
+at that point in time. The reference points
+are numbered 1, 2, 3, etc. each corresponding
+to that time in seconds. These numbers also
+act as reference to a side label, which appears
+at the left of the screen, that shows the
+projectile's characteristics, such as
+its velocity at that time interval.This feature
+is limited to the Single Projectile Simulation.
+The color of the reference points can be
+altered in the settings page.
+
+The Settings Page:
+The settings page allows the user to change
+additional projectile attributes, such as mass,
+radius and color. It also allows the user to
+change the reference point color. These options
+were placed in a separate page of each simulation
+function to avoid the user having to input them
+several times when using the same simulation
+function.
+
+User input:
+
+Parameters regarding the projectile's motion:
+1.	Launch velocity
+2.	Launch height
+3.	Launch angle from the horizontal
+4.	Projectile Drag coefficient
+5.	Projectile mass
+6.	Projectile radius
+7.	Projectile color
+8.	Reference Point color
+
+Parameters regarding the stopping wall:
+1.	Wall height
+2.	Wall distance from projectile's launch
+	location
